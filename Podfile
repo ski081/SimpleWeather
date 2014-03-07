@@ -1,11 +1,7 @@
 platform :ios, "7.0"
 
-pod "AFNetworking", "1.3.1"
+pod "AFNetworking"
 pod "MagicalRecord"
-pod "AFHTTPRequestOperationLogger", "0.10"
-pod "SSKeychain"
-pod "CocoaLumberjack"
-pod "TPKeyboardAvoiding"
 pod "SVProgressHUD"
 pod "TSMessages"
 
