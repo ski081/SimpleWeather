@@ -55,22 +55,22 @@ const struct CurrentWeatherFetchedProperties CurrentWeatherFetchedProperties = {
 
 
 
-- (float)temperatureValue {
+- (double)temperatureValue {
 	NSNumber *result = [self temperature];
-	return [result floatValue];
+	return [result doubleValue];
 }
 
-- (void)setTemperatureValue:(float)value_ {
-	[self setTemperature:[NSNumber numberWithFloat:value_]];
+- (void)setTemperatureValue:(double)value_ {
+	[self setTemperature:[NSNumber numberWithDouble:value_]];
 }
 
-- (float)primitiveTemperatureValue {
+- (double)primitiveTemperatureValue {
 	NSNumber *result = [self primitiveTemperature];
-	return [result floatValue];
+	return [result doubleValue];
 }
 
-- (void)setPrimitiveTemperatureValue:(float)value_ {
-	[self setPrimitiveTemperature:[NSNumber numberWithFloat:value_]];
+- (void)setPrimitiveTemperatureValue:(double)value_ {
+	[self setPrimitiveTemperature:[NSNumber numberWithDouble:value_]];
 }
 
 

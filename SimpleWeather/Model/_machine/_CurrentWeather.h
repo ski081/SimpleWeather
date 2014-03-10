@@ -34,9 +34,9 @@ extern const struct CurrentWeatherFetchedProperties {
 
 
 
-@property float temperatureValue;
-- (float)temperatureValue;
-- (void)setTemperatureValue:(float)value_;
+@property double temperatureValue;
+- (double)temperatureValue;
+- (void)setTemperatureValue:(double)value_;
 
 //- (BOOL)validateTemperature:(id*)value_ error:(NSError**)error_;
 
@@ -57,8 +57,8 @@ extern const struct CurrentWeatherFetchedProperties {
 - (NSNumber*)primitiveTemperature;
 - (void)setPrimitiveTemperature:(NSNumber*)value;
 
-- (float)primitiveTemperatureValue;
-- (void)setPrimitiveTemperatureValue:(float)value_;
+- (double)primitiveTemperatureValue;
+- (void)setPrimitiveTemperatureValue:(double)value_;
 
 
 
