@@ -1,4 +1,0 @@
-SimpleWeather
-=============
-
-Demo app
